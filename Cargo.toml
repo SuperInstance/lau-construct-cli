@@ -1,0 +1,13 @@
+[package]
+name = "lau-construct-cli"
+version = "0.1.0"
+edition = "2021"
+description = "CLI toolkit for managing a PLATO construct — status, inspect, deploy, debug."
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-construct-cli"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1.0"
